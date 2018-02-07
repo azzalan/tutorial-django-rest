@@ -1,5 +1,11 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
+*.sqlite3
+migrations
+venv
+*.pyc
+__pycache__
+
 # dependencies
 **/node_modules
 
@@ -19,8 +25,3 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-#django
-**/db.sqlite3
-**/migrations
-**/venv
