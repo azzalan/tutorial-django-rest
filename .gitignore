@@ -1,7 +1,7 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
 # dependencies
-/react-app/node_modules
+react-app/node_modules
 
 # testing
 /coverage
@@ -21,6 +21,6 @@ yarn-debug.log*
 yarn-error.log*
 
 #django
-/django-project/db.sqlite3
-/django-project/*/migrations
-/venv
+django-project/db.sqlite3
+django-project/*/migrations
+venv
