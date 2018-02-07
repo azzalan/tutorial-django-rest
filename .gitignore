@@ -23,4 +23,4 @@ yarn-error.log*
 #django
 db.sqlite3
 */migrations
-*/venv
+/venv
